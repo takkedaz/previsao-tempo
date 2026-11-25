@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Previsão do Tempo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Previsão do Tempo</h1>
+
+    <div class="busca">
+      <input type="text" id="input-cidade" placeholder="Digite uma cidade...">
+      <button id="btn-buscar">Buscar</button>
+    </div>
+
+    <p id="mensagem" class="mensagem" hidden></p>
+
+    <div id="resultado" class="resultado" hidden>
+      <h2 id="nome-cidade"></h2>
+      <p id="pais-cidade" class="subtitulo"></p>
+
+      <div class="clima-atual">
+        <span id="icone-atual" class="icone"></span>
+        <span id="temp-atual" class="temperatura"></span>
+      </div>
+      <p id="descricao-atual" class="descricao"></p>
+
+      <div class="detalhes">
+        <div class="detalhe">
+          <span class="label">Vento</span>
+          <span id="vento-atual" class="valor"></span>
+        </div>
+        <div class="detalhe">
+          <span class="label">Máx / Mín hoje</span>
+          <span id="max-min-hoje" class="valor"></span>
+        </div>
+      </div>
+
+      <h3>Próximos dias</h3>
+      <div id="previsao-dias" class="previsao-dias"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

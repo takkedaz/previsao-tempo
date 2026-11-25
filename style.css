@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  padding: 60px 16px;
+  min-height: 100vh;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(10px);
+  width: 420px;
+  max-width: 100%;
+  padding: 28px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.busca {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+#input-cidade {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+#btn-buscar {
+  padding: 10px 16px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.15s;
+}
+
+#btn-buscar:hover {
+  background: #43a047;
+}
+
+.mensagem {
+  text-align: center;
+  color: #d0d0e0;
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.resultado {
+  text-align: center;
+}
+
+.resultado h2 {
+  font-size: 24px;
+}
+
+.subtitulo {
+  color: #c0c0d8;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.clima-atual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.icone {
+  font-size: 48px;
+}
+
+.temperatura {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.descricao {
+  color: #d0d0e0;
+  margin-bottom: 16px;
+}
+
+.detalhes {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.detalhe {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detalhe .label {
+  font-size: 11px;
+  color: #a0a0c0;
+  text-transform: uppercase;
+}
+
+.detalhe .valor {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 14px;
+  color: #c0c0d8;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.previsao-dias {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  overflow-x: auto;
+}
+
+.card-dia {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding: 10px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+  min-width: 50px;
+}
+
+.dia {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #c0c0d8;
+}
+
+.icone-dia {
+  font-size: 22px;
+}
+
+.temp-dia {
+  font-size: 11px;
+  color: #e0e0f0;
+}

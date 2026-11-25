@@ -2,7 +2,7 @@
 
 Aplicação de previsão do tempo feita com HTML, CSS e JavaScript puro, consumindo uma API pública em tempo real.
 
-**Demo ao vivo:** _(em breve — link do GitHub Pages)_
+**Demo ao vivo:** https://takkedaz.github.io/previsao-tempo/
 
 ## Funcionalidades
 
